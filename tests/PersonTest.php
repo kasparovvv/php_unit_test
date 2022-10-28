@@ -7,16 +7,20 @@ use PHPUnit\Framework\TestCase;
 use App\Person;
 
 final class PersonTest extends TestCase{
+
+    private $person;
+
+    protected function setUp():void{
+        $this->person = new Person("Robin");
+    }
     
     public function testPersonCanWalk(): void {
-        $person =   new Person("Robin");
-        $person->walk();
+        $this->person->walk();
         $this->assertTrue(true);
     }
 
     public function testPersonCanRun(): void {
-        $person =   new Person("Robin");
-        $person->run();
+        $this->person->run();
         $this->assertTrue(true);
     }
 }
