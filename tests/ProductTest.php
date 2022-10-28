@@ -10,6 +10,7 @@ final class ProductTest extends TestCase{
     
     public function testProduct(): void {
         $product = new Product("Tv",1200);
+        $product->getName();
         $this->assertTrue(true);
     }
 

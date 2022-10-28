@@ -11,12 +11,12 @@ class Product{
         $this->price = $price;
     }
 
-    public function getProduct(){
-        $product = array(
-            "name"=>$this->name,
-            "price"=>$this->price
-        );
-        return $product;
+    public function getName(){
+        return $this->name;
+    }
+
+    public function getPrice(){
+        return $this->price;
     }
 
 }
