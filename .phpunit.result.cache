@@ -1,1 +1,1 @@
-{"version":1,"defects":{"PersonTest::testPersonCanRun":4},"times":{"PersonTest::testPersonCanWalk":0.002,"PersonTest::testPersonCanRun":0}}
+{"version":1,"defects":{"PersonTest::testPersonCanRun":4,"PersonTest::testPersonCanWalk":4},"times":{"PersonTest::testPersonCanWalk":0,"PersonTest::testPersonCanRun":0,"ProductTest::testProduct":0.002}}
